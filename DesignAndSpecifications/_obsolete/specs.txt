@@ -1,0 +1,28 @@
+Chrumck's Awesome Soldata Killer:
+
+misc
+-------------
+
+ - come up with some catchy name
+
+
+
+
+ user requirements
+ --------------------
+
+ - needs to be super easy to set up. If possible, just switch on the Instrument and bam, it's on the map with all readings and in proper spot
+
+
+ funtionalities of the interface
+ -------------------------------
+ - map has to be fluent, work like Zillow (it means filtering the number of points. How do I decide which points stay?)
+ - automatically show instruments on the map with the current position and current reading (the default one).
+ - Clicking on the instrument automatically brings up the time graph.
+ - can be moved to a different position (maybe indicated with a different icon style)
+ - 
+
+ - right clicking instrument (or maybe double clicking? Think exactly what will be the most intuitive) brings up more options:
+    - change the default from time graph to other options (think about other options)
+
+ - all settings have to be saved per user (last view settings, point settings) and be able to be exported to be used by another user in a format which will be easy to edit manually (probably JSON)
