@@ -8,16 +8,13 @@ The idea is to make it work hassle free. I mean, really hassle free. You just ge
 
 ### The instruments 
 
-[Here is an example of the hardware which I will try to make work with **MoniScope**](https://www.sierrawireless.com/products-and-solutions/routers-gateways/rv50/), Raven RV50
+[Here is an example of the hardware which I will use with **MoniScope**](https://www.sierrawireless.com/products-and-solutions/routers-gateways/rv50/), Raven RV50
 
 ![Sierra Wireless Raven RV50](https://www.sierrawireless.com/-/media/iot/products/gatewayproductpages/gateways_rv50_475x274.png?la=en)
 
-[I will use its LUA based application framework](http://source.sierrawireless.com/resources/airlink/aleos_af/refdoc_aleos_af_api_1_3/) to make it do whatever I want. For starters, I'm going to mount it in my motorcycle make it report battery voltage position, and speed.
+[I will use its LUA based application framework](http://source.sierrawireless.com/resources/airlink/aleos_af/refdoc_aleos_af_api_1_3/) to make it do whatever I want. For starters, I'm going to mount it in my motorcycle to measure battery voltage, bike's speed.
 
 ### So, this is the idea... Let's see where it leads me.
 
 ## And remember, this is all to FS!
-
-
-
 
