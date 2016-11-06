@@ -2,12 +2,12 @@
 
 ## Graphical Design and UX
 
-### Slide 1 - Home page, login screen
+### Home page, login screen - Slide 1
 
 Not much to talk about here. Industry standard login options. The arrow at the bottom indicates that there is more on the web page. That's where the description of the service, contact info and other usual home page stuff is going to be.
 
 
-### Slide 2, Slide 3 - Main view
+### Main view - Slide 2, Slide 3
 
 #### Stage 1 Functionality
 
@@ -19,11 +19,13 @@ Both the color and the shape of the point can be changed in **Instrument Setting
 
 If the sensor stops responding for any reason (in other words, the measurement was not received within a specified amount of time as set in the **Instrument Settings**), the point color is going to turn gray and the label is going to show an exclamation mark. 
 
-Hovering over the point will bring up a box showing more information about the instrument - small time domain graph of the default measurements of the instrument, last values of the other measurements (for example instruments battery voltage), timestamps of the last measurement.
+Single clicking the point will bring up a box showing more information about the instrument - small time domain graph of the default measurements of the instrument, last values of the other measurements (for example instruments battery voltage), timestamp of the last measurement. See slide 3 for an example.
 
-Double clicking the point will bring up the detailed time graph of the measurements (See Slide 5).
+Double clicking the point will bring up the detailed **Time Graph** of the measurements.
 
-Right clicking the point will show a context menu with options like **Instrument Settings**.
+Right clicking the point will show a context menu with options, among them **Instrument Settings** and **Time Graph**.
+
+Right click drag allows drawing a rectangle and selecting multiple sensors (CTRL will allow multiple drags). After the sensors are selected, right click anywhere on the screen will bring up a context menu with options available for all sensors. **Instrument Settings** for common setting and **Time Graph** for composite time graph will be one of them.
 
 The upper right input box allows searching sensors by name. If a name is typed, the sensors highlight and if necessary, the map zooms out after a second or two to show all highlighted sensors which match the name. The name match is partial and case insensitive. 
 
@@ -36,9 +38,14 @@ The sensors can be dragged into the group.
 If alerts are set on any sensor, the group will show the respective color. If there is more than one sensor which is in alert, the highest or lowest alert color will be shown - depending on the selected group setting. 
 If any of the grouped sensors names match the search input box string, the group is highlighted to indicate that the searched point is inside.
 If group is clicked, the default behavior is going to be: sensors in the group show up in star like layout around the group point and show their labels if there will be enough room for them.
-For specific types of sensors (for example an inclinometer chain), clicking on a group brings up a different kind of view - a composite graph. *The slide showing that will be added later*.
+For specific types of sensors (for example an inclinometer chain), clicking on a group brings up a different kind of view specific those instruments. *The slide showing that will be added later*.
 
-### Slide 4 - Instrument settings
+### Time Graph (need a slide)
+
+The detailed graph will allow zooming in an out. Hovering over any part of the graph will show the value.
+There will be an option do download measurements.
+
+### Instrument settings (need a slide)
 
 The instruments can be selected on the map, either by clicking them, or dragging a rectangle to select more than one instrument (CTRL+drag, since simple drag is going to be map panning). Once selected, right click will give an option to go to **Instrument Settings** and show the view as in Slide 4. 
 
