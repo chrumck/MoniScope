@@ -10,7 +10,7 @@ The idea is to make it work hassle free. I mean, really hassle free. You just ge
 
 [Here is an example of the hardware which I will use with **MoniScope**](https://www.sierrawireless.com/products-and-solutions/routers-gateways/rv50/), Raven RV50
 
-![Sierra Wireless Raven RV50](https://www.sierrawireless.com/-/media/iot/products/gatewayproductpages/gateways_rv50_475x274.png?la=en)
+![Sierra Wireless Raven RV50](http://source.sierrawireless.com/~/media/developer%20zone/devices%20images/new%20icons/sw_al_rv_50.ashx)
 
 [I will use its LUA based application framework](http://source.sierrawireless.com/resources/airlink/aleos_af/refdoc_aleos_af_api_1_3/) to make it do whatever I want. For starters, I'm going to mount it in my motorcycle to measure battery voltage, bike's speed.
 
