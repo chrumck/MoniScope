@@ -16,5 +16,4 @@ The idea is to make it work hassle free. I mean, really hassle free. You just ge
 
 ### So, this is the idea... Let's see where it leads me.
 
-## And remember, this is all to FS!
 
